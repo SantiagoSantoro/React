@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+
+body {
+  background-image: url("./components/CartWidget/assets/rodneymullen.jpg");
+  background-size: cover;
+  
+}
+.title {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.904);
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px gray;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
