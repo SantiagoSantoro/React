@@ -2,60 +2,17 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 
 body {
   background-image: url("./components/CartWidget/assets/rodneymullen.jpg");
   background-size: cover;
+  background-position: center 20px;
 
 }
 
 .title {
+  font-family: 'Russo One', sans-serif;
   font-size: 3rem;
-  color: rgba(255, 255, 255, 0.904);
-  font-family: Arial, sans-serif;
-  text-shadow: 2px 2px gray;
-  font-family: 'Pacifico', cursive;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-
-  body {
-    background-image: url("./components/CartWidget/assets/rodneymullen.jpg");
-    background-size: cover;
-
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8), 0px 0px 20px rgba(255, 255, 255, 0.4), 0px 0px 30px rgba(255, 255, 255, 0.2);
 }

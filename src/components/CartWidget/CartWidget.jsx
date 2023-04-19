@@ -1,5 +1,4 @@
 import Badge from "react-bootstrap/Badge";
-
 import cart from "./assets/cart.png";
 
 const styles = {
