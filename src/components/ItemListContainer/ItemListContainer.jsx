@@ -11,7 +11,7 @@ export const ItemListContainer = ({ greeting }) => {
       const productList = new Promise((resolve, reject) => {
          setTimeout(() => {
             resolve(products)
-         }, 2000)
+         }, 4000)
       })
       productList.then(result => setList(result))
    }, [])
@@ -19,6 +19,7 @@ export const ItemListContainer = ({ greeting }) => {
    return (
       <Container className="mt-4">
          <h1 className="title">{greeting}</h1>
+         <ItemList list={list} />
       </Container>
    );
 }

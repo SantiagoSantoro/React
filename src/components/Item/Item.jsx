@@ -1,13 +1,15 @@
-import Button from "react-bootstrap/Button"
-import Card from "react-bootstrap/Card"
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 export const Item = ({ item }) => (
-	<Card style={{ width: "18rem" }} className="float-start">
-		<Card.Img variant="top" src="holder.js/100px180" />
-		<Card.Body>
-			<Card.Title>{item.car_model}</Card.Title>
-			<Card.Text>Año: {item.car_year}</Card.Text>
-			<Button variant="primary">Ver detalle</Button>
-		</Card.Body>
-	</Card>
-)
+  <Card style={{ width: "14rem" }}>
+    <Card.Img variant="top" src={item.foto} />
+    <Card.Body>
+      <Card.Title>{item.marca}</Card.Title>
+      <Card.Text>
+        Precio: ${item.precio}
+      </Card.Text>
+      <Button variant="dark">Agregar al carrito</Button>
+    </Card.Body>
+  </Card>
+);

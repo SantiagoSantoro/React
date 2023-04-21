@@ -1,10 +1,9 @@
-[{"id":1,"car_factory":"GMC","car_model":"Savana 3500","car_year":2004},
-{"id":2,"car_factory":"Ford","car_model":"Expedition","car_year":2003},
-{"id":3,"car_factory":"Geo","car_model":"Tracker","car_year":1997},
-{"id":4,"car_factory":"Subaru","car_model":"Impreza","car_year":1995},
-{"id":5,"car_factory":"Mitsubishi","car_model":"3000GT","car_year":1992},
-{"id":6,"car_factory":"Audi","car_model":"A4","car_year":1997},
-{"id":7,"car_factory":"Pontiac","car_model":"Firefly","car_year":1995},
-{"id":8,"car_factory":"Ford","car_model":"Fusion","car_year":2011},
-{"id":9,"car_factory":"Dodge","car_model":"Grand Caravan","car_year":1993},
-{"id":10,"car_factory":"Buick","car_model":"Century","car_year":1994}]
+[{ "id": 1, "marca": "Element", "precio": 80, "foto": "https://img.skatewarehouse.com/watermark/rs.php?path=ELQUADDK-1.jpg" },
+{ "id": 2, "marca": "Santa Cruz", "precio": 90, "foto": "https://img.skatewarehouse.com/watermark/rs.php?path=SCCDB85DK-1.jpg&nw=435" },
+{ "id": 3, "marca": "Powell Peralta", "precio": 100, "foto": "https://img.skatewarehouse.com/watermark/rs.php?path=PLRSRDK-1.jpg" },
+{ "id": 4, "marca": "Blind", "precio": 70, "foto": "https://img.skatewarehouse.com/watermark/rs.php?path=BNRS2DK-1.jpg" },
+{ "id": 5, "marca": "Enjoi", "precio": 85, "foto": "https://img.skatewarehouse.com/watermark/rs.php?path=ENSBK85DK-1.jpg&nw=435" },
+{ "id": 6, "marca": "Flip", "precio": 95, "foto": "https://img.skatewarehouse.com/watermark/rs.php?path=FLABSR20DK-1.jpg&nw=435" },
+{ "id": 7, "marca": "Girl", "precio": 110, "foto": "https://img.skatewarehouse.com/watermark/rs.php?path=GIM23DK-1.jpg" },
+{ "id": 8, "marca": "Zero", "precio": 75, "foto": "https://img.skatewarehouse.com/watermark/rs.php?path=ZEBD82DK-1.jpg" }]
+  
