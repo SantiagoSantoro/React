@@ -20,6 +20,6 @@ export const ItemList = ({ list }) => (
     </Row>
   </>
 );
-
-// // La función slice se utiliza para separar los elementos de la lista en dos grupos de cuatro elementos cada uno, para crear las dos filas. 
+// Aquí, estamos utilizando el componente Row para crear cada una de las filas, y dentro de cada fila estamos utilizando el componente Col para crear cada una de las columnas.
+// La función slice se utiliza para separar los elementos de la lista en dos grupos de cuatro elementos cada uno, para crear las dos filas. 
 // Luego, para cada elemento de la lista, estamos creando un componente Col y dentro de él estamos renderizando el componente Item con el objeto de la lista correspondiente.

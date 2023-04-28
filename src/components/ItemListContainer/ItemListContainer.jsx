@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react"
 import Container from "react-bootstrap/Container"
 
@@ -11,7 +12,7 @@ export const ItemListContainer = ({ greeting }) => {
       const productList = new Promise((resolve, reject) => {
          setTimeout(() => {
             resolve(products)
-         }, 4000)
+         }, 3000)
       })
       productList.then(result => setList(result))
    }, [])
