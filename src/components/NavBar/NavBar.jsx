@@ -12,8 +12,8 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
+            <Nav.Link href="#tablas">Tablas</Nav.Link>
             <Nav.Link href="#remeras">Remeras</Nav.Link>
-            <Nav.Link href="#buzos">Buzos</Nav.Link>
             <Nav.Link href="#accesorios">Accesorios</Nav.Link>
           </Nav>
           <div className="d-flex justify-content-center align-items-center">

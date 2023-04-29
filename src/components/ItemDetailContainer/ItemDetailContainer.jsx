@@ -4,10 +4,10 @@ import Container from "react-bootstrap/Container"
 import { ItemDetail } from "../ItemDetail/ItemDetail"
 
 const productList = {
-	title: "Montaña",
-	description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minima cum iusto quibusdam, velit quo asperiores aliquam a quae. Itaque, laborum debitis nemo vero non voluptates id magnam quo quasi. Ullam aut commodi odio libero quis sit aliquid rerum praesentium. Beatae nemo obcaecati natus rem iusto fugiat quidem necessitatibus architecto ullam dolores? Laborum, maiores quos laboriosam praesentium rerum dignissimos blanditiis!`,
-	price: 6,
-	img: "https://images.unsplash.com/photo-1570641963303-92ce4845ed4c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+	title: "Element",
+	description: "Esta tabla de skate está diseñada para aquellos que buscan un rendimiento superior en la calle o en el skatepark. Fabricada con materiales de alta calidad y una construcción duradera, esta tabla ofrece una combinación perfecta de velocidad, estabilidad y maniobrabilidad. Con un diseño elegante y llamativo, esta tabla es tanto una obra de arte como un instrumento para realizar trucos impresionantes. No importa si eres un principiante o un profesional experimentado, esta tabla de skate es el compañero perfecto para desafiar tus límites y llevar tus habilidades al siguiente nivel",
+	price: "$80",
+	img: "https://img.skatewarehouse.com/watermark/rs.php?path=ELQUADDK-1.jpg",
 }
 
 export const ItemDetailContainer = () => {
