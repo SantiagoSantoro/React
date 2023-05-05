@@ -6,18 +6,18 @@ import products from "../../data/products.json"
 
 
 export const ItemDetailContainer = () => {
-	const { itemId } = useParams()
+	const { id } = useParams()
 	const [product, setProduct] = useState({})
 
 	useEffect(() => {
 		const productPromise = new Promise((resolve, reject) => {
 			setTimeout(() => {
-				const product = products.find(p => p.id === itemId)
+				const product = products.find(p => p.id === parseInt(id))
 				resolve(product)
 			}, 2000)
 		})
 		productPromise.then(result => setProduct(result))
-	}, [itemId])
+	}, [id])
 
 	return (
 		<Container>
