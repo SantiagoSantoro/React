@@ -62,5 +62,29 @@
         "precio": 75,
         "img": "https://img.skatewarehouse.com/watermark/rs.php?path=ZEBD82DK-1.jpg",
         "descripcion": ""
+    },
+    {
+        "id": 9,
+        "marca": "Element",
+        "categoria": "Remeras",
+        "precio": 19.20,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_809616-MLA48785332449_012022-O.webp",
+        "descripcion": ""
+    },
+    {
+        "id": 10,
+        "marca": "Wakana",
+        "categoria": "Remeras",
+        "precio": 19.20,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_754041-MLA48785429044_012022-O.webp",
+        "descripcion": ""
+    },
+    {
+        "id": 11,
+        "marca": "Powell Peralta",
+        "categoria": "Remeras",
+        "precio": 19.20,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_735638-MLA53626805791_022023-O.webp",
+        "descripcion": ""
     }
 ]

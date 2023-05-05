@@ -1,7 +1,7 @@
 export const ItemDetail = ({ product }) => (
 	<div>
 	  <h1 style={{ color: "white", fontSize: "2rem" }}>
-		{product.id} ${product.precio}
+		{product.id} {product.categoria} {product.marca} ${product.precio}
 	  </h1>
 	  <img src={product.img} alt={product.marca} style={{ maxWidth: "50%", height: "auto" }} />
 	  <p style={{ color: "white", fontSize: "16px" }}>{product.descripcion}</p>

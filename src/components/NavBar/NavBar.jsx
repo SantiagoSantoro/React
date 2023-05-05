@@ -10,11 +10,11 @@ export const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="md">
       <Container>
-        <Navbar.Brand href="#home">X-treme Shop</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">X-treme Shop</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/category/home">Home</Nav.Link>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/category/Tablas">Tablas</Nav.Link>
             <Nav.Link as={Link} to="/category/Remeras">Remeras</Nav.Link>
             <Nav.Link as={Link} to="/category/Accesorios">Accesorios</Nav.Link>
