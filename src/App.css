@@ -17,6 +17,7 @@ body {
   background-image: linear-gradient(to right, #00ffff, #ff00ff);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 .loading {
@@ -25,6 +26,7 @@ body {
   font-size: 40px;
   color: linear-gradient(to right, #808080, #e6e6e6);
   animation: blink 1s linear infinite;
+  text-align: center;
 }
 
 

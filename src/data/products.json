@@ -1,9 +1,66 @@
-[{ "id": 1, "marca": "Element", "precio": 80, "img": "https://img.skatewarehouse.com/watermark/rs.php?path=ELQUADDK-1.jpg" },
-{ "id": 2, "marca": "Santa Cruz", "precio": 90, "img": "https://img.skatewarehouse.com/watermark/rs.php?path=SCCDB85DK-1.jpg&nw=435" },
-{ "id": 3, "marca": "Powell Peralta", "precio": 100, "img": "https://img.skatewarehouse.com/watermark/rs.php?path=PLRSRDK-1.jpg" },
-{ "id": 4, "marca": "Blind", "precio": 70, "img": "https://img.skatewarehouse.com/watermark/rs.php?path=BNRS2DK-1.jpg" },
-{ "id": 5, "marca": "Enjoi", "precio": 85, "img": "https://img.skatewarehouse.com/watermark/rs.php?path=ENSBK85DK-1.jpg&nw=435" },
-{ "id": 6, "marca": "Flip", "precio": 95, "img": "https://img.skatewarehouse.com/watermark/rs.php?path=FLABSR20DK-1.jpg&nw=435" },
-{ "id": 7, "marca": "Girl", "precio": 110, "img": "https://img.skatewarehouse.com/watermark/rs.php?path=GIM23DK-1.jpg" },
-{ "id": 8, "marca": "Zero", "precio": 75, "img": "https://img.skatewarehouse.com/watermark/rs.php?path=ZEBD82DK-1.jpg" }]
-  
+[
+    {
+        "id": 1,
+        "marca": "Element",
+        "categoria": "Tablas",
+        "precio": 80,
+        "img": "https://img.skatewarehouse.com/watermark/rs.php?path=ELQUADDK-1.jpg",
+        "descripcion": ""
+    },
+    {
+        "id": 2,
+        "marca": "Santa Cruz",
+        "categoria": "Tablas",
+        "precio": 90,
+        "img": "https://img.skatewarehouse.com/watermark/rs.php?path=SCCDB85DK-1.jpg&nw=435",
+        "descripcion": ""
+    },
+    {
+        "id": 3,
+        "marca": "Powell Peralta",
+        "categoria": "Tablas",
+        "precio": 100,
+        "img": "https://img.skatewarehouse.com/watermark/rs.php?path=PLRSRDK-1.jpg",
+        "descripcion": ""
+    },
+    {
+        "id": 4,
+        "marca": "Blind",
+        "categoria": "Tablas",
+        "precio": 70,
+        "img": "https://img.skatewarehouse.com/watermark/rs.php?path=BNRS2DK-1.jpg",
+        "descripcion": ""
+    },
+    {
+        "id": 5,
+        "marca": "Enjoi",
+        "categoria": "Tablas",
+        "precio": 85,
+        "img": "https://img.skatewarehouse.com/watermark/rs.php?path=ENSBK85DK-1.jpg&nw=435",
+        "descripcion": ""
+    },
+    {
+        "id": 6,
+        "marca": "Flip",
+        "categoria": "Tablas",
+        "precio": 95,
+        "img": "https://img.skatewarehouse.com/watermark/rs.php?path=FLABSR20DK-1.jpg&nw=435",
+        "descripcion": ""
+    },
+    {
+        "id": 7,
+        "marca": "Girl",
+        "categoria": "Tablas",
+        "precio": 110,
+        "img": "https://img.skatewarehouse.com/watermark/rs.php?path=GIM23DK-1.jpg",
+        "descripcion": ""
+    },
+    {
+        "id": 8,
+        "marca": "Zero",
+        "categoria": "Tablas",
+        "precio": 75,
+        "img": "https://img.skatewarehouse.com/watermark/rs.php?path=ZEBD82DK-1.jpg",
+        "descripcion": ""
+    }
+]
