@@ -1,5 +1,5 @@
 export const ItemDetail = ({ product }) => (
-	<div>
+	<div className="text-center">
 	  <h1 style={{ color: "white", fontSize: "2rem" }}>
 		{product.id} {product.categoria} {product.marca} ${product.precio}
 	  </h1>
