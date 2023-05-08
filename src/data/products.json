@@ -1,5 +1,6 @@
 [
     {
+        "stock": 3,
         "id": 1,
         "marca": "Element",
         "categoria": "Tablas",
@@ -8,6 +9,7 @@
         "descripcion": "Element es una reconocida marca de tablas de skate fundada en 1992 en California, Estados Unidos. Su tabla de skate es conocida por su durabilidad y calidad, y es una opción popular entre los skaters de todo el mundo. Las tablas de skate de Element están hechas de madera de arce de alta calidad y vienen en una amplia variedad de diseños, desde simples y elegantes hasta llamativos y coloridos. La marca también se enorgullece de su compromiso con la sostenibilidad, utilizando madera de arce proveniente de bosques gestionados de manera responsable en sus productos. En resumen, la tabla de skate de Element es una excelente opción para los skaters que buscan calidad, durabilidad y estilo."
     },
     {
+        "stock": 3,
         "id": 2,
         "marca": "Santa Cruz",
         "categoria": "Tablas",
@@ -16,6 +18,7 @@
         "descripcion": "Santa Cruz es una icónica marca de tablas de skate que ha estado en el mercado desde 1973. Conocida por su logotipo icónico y su diseño gráfico distintivo, la tabla de skate de Santa Cruz es una opción popular para los skaters que buscan estilo y calidad. La marca ofrece una amplia variedad de tablas de skate, desde modelos clásicos hasta diseños más modernos, y es conocida por su atención al detalle y su enfoque en la durabilidad y el rendimiento. Las tablas de skate de Santa Cruz están hechas de madera de arce de alta calidad y se someten a rigurosas pruebas de calidad para garantizar que cumplen con los estándares de la marca. Además, Santa Cruz también ofrece una amplia gama de accesorios para skaters, desde ruedas y ejes hasta ropa y mochilas. En general, la tabla de skate de Santa Cruz es una excelente opción para los skaters que buscan estilo, calidad y rendimiento."
     },
     {
+        "stock": 3,
         "id": 3,
         "marca": "Powell Peralta",
         "categoria": "Tablas",
@@ -24,6 +27,7 @@
         "descripcion": "Powell Peralta es una marca de tablas de skate fundada en 1978 y es conocida por sus diseños icónicos y la calidad de sus productos. La tabla de skate de Powell Peralta es una opción popular para los skaters que buscan durabilidad y rendimiento en la pista o en la calle. Las tablas de skate de la marca están hechas de madera de arce de alta calidad y se someten a rigurosas pruebas de calidad para garantizar su resistencia y durabilidad. Además de las tablas de skate, Powell Peralta también ofrece una amplia gama de accesorios para skaters, desde ruedas y ejes hasta camisetas y gorras. La marca se enorgullece de su compromiso con la calidad y la innovación, y ha sido pionera en el diseño de nuevas tecnologías y materiales para mejorar el rendimiento de las tablas de skate. En resumen, la tabla de skate de Powell Peralta es una excelente opción para los skaters que buscan calidad, durabilidad y un diseño icónico."
     },
     {
+        "stock": 3,
         "id": 4,
         "marca": "Blind",
         "categoria": "Tablas",
@@ -32,6 +36,7 @@
         "descripcion": "Blind es una marca de tablas de skate que se fundó en 1989 en California, Estados Unidos. La tabla de skate de Blind es una opción popular para los skaters que buscan calidad y estilo a un precio razonable. La marca ofrece una amplia variedad de diseños y gráficos, desde modelos simples y elegantes hasta diseños más atrevidos y llamativos. Las tablas de skate de Blind están hechas de madera de arce de alta calidad y se someten a rigurosas pruebas de calidad para garantizar su resistencia y durabilidad. Además de las tablas de skate, Blind también ofrece una amplia gama de accesorios para skaters, como ruedas, ejes y rodamientos. La marca se enorgullece de su compromiso con la innovación y ha sido pionera en el diseño de tecnologías avanzadas, como la construcción en sándwich de madera y la incorporación de fibra de vidrio en las tablas de skate para mejorar el rendimiento y la durabilidad. En resumen, la tabla de skate de Blind es una excelente opción para los skaters que buscan calidad, estilo y rendimiento a un precio accesible."
     },
     {
+        "stock": 3,
         "id": 5,
         "marca": "Enjoi",
         "categoria": "Tablas",
@@ -40,6 +45,7 @@
         "descripcion": "Enjoi es una marca de tablas de skate fundada en 2000 y es conocida por su estilo único y su enfoque en la diversión y el entretenimiento en el skateboarding. La tabla de skate de Enjoi es una opción popular para los skaters que buscan una combinación de estilo y calidad. La marca ofrece una amplia gama de diseños y gráficos, desde modelos simples y elegantes hasta diseños más atrevidos y coloridos, que reflejan el enfoque divertido y juguetón de la marca. Las tablas de skate de Enjoi están hechas de madera de arce de alta calidad y se someten a rigurosas pruebas de calidad para garantizar su resistencia y durabilidad. Además de las tablas de skate, Enjoi también ofrece una amplia gama de accesorios para skaters, desde ruedas y ejes hasta camisetas y gorras. La marca se enorgullece de su compromiso con la innovación y ha sido pionera en el diseño de nuevas tecnologías y materiales para mejorar el rendimiento y la durabilidad de sus tablas de skate. En resumen, la tabla de skate de Enjoi es una excelente opción para los skaters que buscan estilo, calidad y un enfoque divertido y juguetón en el skateboarding."
     },
     {
+        "stock": 3,
         "id": 6,
         "marca": "Flip",
         "categoria": "Tablas",
@@ -48,6 +54,7 @@
         "descripcion": "Flip es una marca de tablas de skate fundada en 1991 y es conocida por su estilo único y su enfoque en la calidad y el rendimiento. La tabla de skate de Flip es una opción popular para los skaters que buscan una combinación de estilo, calidad y rendimiento en la pista o en la calle. La marca ofrece una amplia gama de diseños y gráficos, desde modelos clásicos hasta diseños más modernos y atrevidos, que reflejan el enfoque innovador de la marca. Las tablas de skate de Flip están hechas de madera de arce de alta calidad y se someten a rigurosas pruebas de calidad para garantizar su resistencia y durabilidad. Además de las tablas de skate, Flip también ofrece una amplia gama de accesorios para skaters, como ruedas, ejes y rodamientos. La marca se enorgullece de su compromiso con la calidad y el rendimiento, y ha sido pionera en el diseño de nuevas tecnologías y materiales para mejorar el rendimiento y la durabilidad de sus tablas de skate. En resumen, la tabla de skate de Flip es una excelente opción para los skaters que buscan estilo, calidad y rendimiento en la pista o en la calle."
     },
     {
+        "stock": 3,
         "id": 7,
         "marca": "Girl",
         "categoria": "Tablas",
@@ -56,6 +63,7 @@
         "descripcion": "Girl es una marca de tablas de skate fundada en 1993 y es conocida por su estilo único y su enfoque en el diseño de tablas de skate de alta calidad para skaters de todos los niveles. La tabla de skate de Girl es una opción popular para los skaters que buscan estilo y rendimiento en la pista o en la calle. La marca ofrece una amplia gama de diseños y gráficos, desde modelos clásicos hasta diseños más modernos y atrevidos, que reflejan el enfoque innovador de la marca. Las tablas de skate de Girl están hechas de madera de arce de alta calidad y se someten a rigurosas pruebas de calidad para garantizar su resistencia y durabilidad. Además de las tablas de skate, Girl también ofrece una amplia gama de accesorios para skaters, desde ruedas y ejes hasta camisetas y gorras. La marca se enorgullece de su compromiso con la innovación y la calidad, y ha sido pionera en el diseño de nuevas tecnologías y materiales para mejorar el rendimiento y la durabilidad de sus tablas de skate. En resumen, la tabla de skate de Girl es una excelente opción para los skaters que buscan estilo, calidad y rendimiento en la pista o en la calle, independientemente de su nivel de habilidad."
     },
     {
+        "stock": 3,
         "id": 8,
         "marca": "Zero",
         "categoria": "Tablas",
@@ -64,70 +72,79 @@
         "descripcion": "Zero es una marca de tablas de skate fundada en 1996 y es conocida por su estilo único y su enfoque en la calidad y el rendimiento. La tabla de skate de Zero es una opción popular para los skaters que buscan una combinación de estilo y calidad. La marca ofrece una amplia gama de diseños y gráficos, desde modelos clásicos hasta diseños más modernos y atrevidos, que reflejan el enfoque innovador de la marca. Las tablas de skate de Zero están hechas de madera de arce de alta calidad y se someten a rigurosas pruebas de calidad para garantizar su resistencia y durabilidad. Además de las tablas de skate, Zero también ofrece una amplia gama de accesorios para skaters, como ruedas, ejes y rodamientos. La marca se enorgullece de su compromiso con la calidad y el rendimiento, y ha sido pionera en el diseño de nuevas tecnologías y materiales para mejorar el rendimiento y la durabilidad de sus tablas de skate. En resumen, la tabla de skate de Zero es una excelente opción para los skaters que buscan estilo, calidad y rendimiento en la pista o en la calle."
     },
     {
+        "stock": 20,
         "id": 9,
         "marca": "Element",
         "categoria": "Remeras",
         "precio": 19.20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_809616-MLA48785332449_012022-O.webp",
-        "descripcion": "Remera de algodon Element. Todos los talles disponibles."
+        "descripcion": "Remera de algodón Element. Todos los talles disponibles."
     },
     {
+        "stock": 20,
         "id": 10,
         "marca": "Wakana",
         "categoria": "Remeras",
         "precio": 19.20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_754041-MLA48785429044_012022-O.webp",
-        "descripcion": "Remera de algodon Wakana. Todos los talles disponibles."
+        "descripcion": "Remera de algodón Wakana. Todos los talles disponibles."
     },
     {
+        "stock": 20,
         "id": 11,
         "marca": "Vans",
         "categoria": "Remeras",
         "precio": 19.20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_735638-MLA53626805791_022023-O.webp",
-        "descripcion": "Remera de algodon Vans. Todos los talles disponibles."
+        "descripcion": "Remera de algodón Vans. Todos los talles disponibles."
     },
     {
+        "stock": 20,
         "id": 12,
         "marca": "Santa Cruz",
         "categoria": "Remeras",
         "precio": 19.20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_857303-MLA53753533231_022023-O.webp",
-        "descripcion": "Remera de algodon Santa Cruz. Todos los talles disponibles."
+        "descripcion": "Remera de algodón Santa Cruz. Todos los talles disponibles."
     },
     {
+        "stock": 20,
         "id": 13,
         "marca": "Thrasher",
         "categoria": "Remeras",
         "precio": 19.20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_924678-MLA53909815928_022023-O.webp",
-        "descripcion": "Remera de algodon Thrasher. Todos los talles disponibles."
+        "descripcion": "Remera de algodón Thrasher. Todos los talles disponibles."
     },
     {
+        "stock": 20,
         "id": 14,
         "marca": "Powell Peralta",
         "categoria": "Remeras",
         "precio": 19.20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_840516-MLA53282232097_012023-O.webp",
-        "descripcion": "Remera de algodon Powell Peralta. Todos los talles disponibles."
+        "descripcion": "Remera de algodón Powell Peralta. Todos los talles disponibles."
     },
     {
+        "stock": 20,
         "id": 15,
         "marca": "Independent",
         "categoria": "Remeras",
         "precio": 19.20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_655718-MLA50264181146_062022-O.webp",
-        "descripcion": "Remera de algodon Independent. Todos los talles disponibles."
+        "descripcion": "Remera de algodón Independent. Todos los talles disponibles."
     },
     {
+        "stock": 20,
         "id": 16,
         "marca": "No Regret",
         "categoria": "Remeras",
         "precio": 19.20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_863842-MLA50264190142_062022-O.webp",
-        "descripcion": "Remera de algodon No Regret. Todos los talles disponibles."
+        "descripcion": "Remera de algodón No Regret. Todos los talles disponibles."
     },
     {
+        "stock": 3,
         "id": 17,
         "marca": "Kit Independent",
         "categoria": "Accesorios",
@@ -136,6 +153,7 @@
         "descripcion": "Kit Accesorios Para Skate Independent Spare Parts Kit Each"
     },
     {
+        "stock": 3,
         "id": 18,
         "marca": "Trucks Ace",
         "categoria": "Accesorios",
@@ -144,6 +162,7 @@
         "descripcion": "Trucks De Skate F1-44 (set X 2u.) Ace"
     },
     {
+        "stock": 3,
         "id": 19,
         "marca": "Pig Prime Conical",
         "categoria": "Accesorios",
@@ -152,6 +171,7 @@
         "descripcion": "Ruedas De Skate Pig Prime Conical 56mm"
     },
     {
+        "stock": 3,
         "id": 20,
         "marca": "Llave Ace Skate Tool",
         "categoria": "Accesorios",
@@ -160,6 +180,7 @@
         "descripcion": "Llave Ace Skate Tool"
     },
     {
+        "stock": 3,
         "id": 21,
         "marca": "Lija Thrasher",
         "categoria": "Accesorios",
@@ -168,6 +189,7 @@
         "descripcion": "Lija De Skate Thrasher Destroy"
     },
     {
+        "stock": 3,
         "id": 22,
         "marca": "Bujes Medium White",
         "categoria": "Accesorios",
@@ -176,6 +198,7 @@
         "descripcion": "Bujes Para Skate Medium White"
     },
     {
+        "stock": 3,
         "id": 23,
         "marca": "Llave T Woodo",
         "categoria": "Accesorios",
@@ -184,6 +207,7 @@
         "descripcion": "Llave T Para Skate Woodo"
     },
     {
+        "stock": 3,
         "id": 24,
         "marca": "Woodoo Blackwings",
         "categoria": "Accesorios",

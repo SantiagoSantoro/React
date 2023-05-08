@@ -9,7 +9,7 @@ export const Item = ({ item }) => (
       <Card.Title>{item.categoria}</Card.Title>
       <Card.Title>{item.marca}</Card.Title>
       <Card.Text>
-        Precio: ${item.precio}
+        Precio: USD${item.precio}
       </Card.Text>
       <Button as={Link} to={`/item/${item.id}`} variant="dark">
         Ver Detalles

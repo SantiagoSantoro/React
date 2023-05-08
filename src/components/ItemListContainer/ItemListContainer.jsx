@@ -7,6 +7,7 @@ import { useParams } from "react-router-dom"
 
 export const ItemListContainer = ({ greeting }) => {
    const [list, setList] = useState([])
+   const [loading, setLoading] = useState(true)
    const {id}=useParams()
 
    const productList = new Promise((resolve) => {
@@ -14,22 +15,28 @@ export const ItemListContainer = ({ greeting }) => {
          resolve(products)
       }, 2000)
    })
+
    useEffect(() => {
+      setLoading(true) // Establecer el estado de loading en true al comienzo
+      // console.log(products)//
       productList.then(result => {
          if(id){
             setList(result.filter(item => item.categoria === id))
          }else{
             setList(result)
          }
+         setLoading(false) // Establecer el estado de loading en false al completarse la carga
       })
    }, [id])
 
    return (
       <Container className="mt-4">
          <h1 className="title">{greeting}</h1>
-         <ItemList list={list} />
+         {loading ? (
+            <div className="loading">Loading...</div>
+         ) : (
+            <ItemList list={list} />
+         )}
       </Container>
    );
 }
-// Tene en cuenta que la unica categoria que tenemos es Tablas por lo que deberias agregar las otras 2.
-// Con respecto a los productos, solo modifica el mismo json, en ese mismo array agrega los objetos de diferentes categorias.
