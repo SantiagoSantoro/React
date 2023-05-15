@@ -5,13 +5,13 @@ import CartContext from "../../Context/CartContext";
 export const ItemDetail = ({ product }) => {
   const { addItem } = useContext(CartContext);
 
-  const onAdd = () => {
-    addItem(product, 1);
+  const onAdd = (cantidad) => {
+    addItem(product, cantidad);
     console.log("Producto agregado al carrito:", product);
   };
 
   return (
-    <div className="text-center">
+    <div className="text-center" >
       <h1 style={{ color: "white", fontSize: "2rem" }}>{product.marca}</h1>
       <p style={{ color: "white", fontSize: "20px" }}>{product.categoria}</p>
       <p style={{ color: "white", fontSize: "18px", fontWeight: "Montserrat" }}>
@@ -23,7 +23,7 @@ export const ItemDetail = ({ product }) => {
       <img
         src={product.img}
         alt={product.marca}
-        style={{ maxWidth: "50%", height: "auto" }}
+		style={{ maxWidth: "50%", height: "auto", borderRadius: "10px" }}
       />
       <ItemCounter stock={product.stock} onAdd={onAdd} />
     </div>

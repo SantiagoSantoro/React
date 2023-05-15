@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import {Link} from 'react-router-dom'
 
 export const Item = ({ item }) => (
-  <Card style={{ width: "14rem" }}>
+  <Card style={{ width: "14rem",  }}>
     <Card.Img variant="top" src={item.img} style={{height: "14rem" }}/>
     <Card.Body className="text-center">
       <Card.Title>{item.categoria}</Card.Title>
