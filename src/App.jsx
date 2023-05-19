@@ -4,6 +4,7 @@ import { ItemListContainer } from "./components/ItemListContainer/ItemListContai
 import { NavBar } from "./components/NavBar/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./Context/CartContext";
+import { Cart } from "./components/Cart/Cart"
 
 function App() {
 	return (
@@ -14,6 +15,8 @@ function App() {
 					<Route path="/" element={<ItemListContainer greeting="Bienvenidos a X-Treme Shop" />} />
 					<Route path="/item/:id" element={<ItemDetailContainer />} />
 					<Route path="/category/:id" element={<ItemListContainer />} />
+					<Route path="/cart" element={<Cart />} /> 
+					{/* todavia no desarrollé el componente Cart */}
 				</Routes>
 			</BrowserRouter>
 		</CartProvider>

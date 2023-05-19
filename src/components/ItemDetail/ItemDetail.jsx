@@ -26,6 +26,7 @@ export const ItemDetail = ({ product }) => {
 		style={{ maxWidth: "50%", height: "auto", borderRadius: "10px" }}
       />
       <ItemCounter stock={product.stock} onAdd={onAdd} />
+      {/* tengo que linkearlo a la ruta Cart */}
     </div>
   );
 };

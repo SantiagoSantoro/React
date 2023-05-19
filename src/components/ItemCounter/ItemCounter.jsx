@@ -17,32 +17,33 @@ export const ItemCounter = ({ stock, onAdd }) => {
   };
 
   return (
-    <div className="container">
-      <p className="count">Cantidad: {count}</p>
-      <p className="stock">Stock disponible: {stock}</p>
+    <div className="item-counter">
+      <div className="counter-row">
+        <button
+          className="btn btn-dark"
+          onClick={decrement}
+          disabled={count === 0}
+        >
+          -
+        </button>
+        <p className="count">{count}</p>
+        <button
+          className="btn btn-dark"
+          onClick={increment}
+          disabled={count === stock}
+        >
+          +
+        </button>
+      </div>
       <button
-        className="btn btn-dark"
-        onClick={increment}
-        disabled={count === stock}
-      >
-        Sumar
-      </button>
-      <button
-        className="btn btn-dark"
-        onClick={decrement}
-        disabled={count === 0}
-      >
-        Restar
-      </button>
-      <button
-        className="btn btn-dark"
+        className="btn btn-dark add-to-cart"
         onClick={() => onAdd(count)}
         disabled={count === 0}
       >
         Agregar al carrito
       </button>
-
+      {/* <p className="stock">Stock disponible: {stock}</p> */}
     </div>
-
   );
 };
+

@@ -1,15 +1,39 @@
-.container {
+.item-counter {
     font-family: "Montserrat", sans-serif;
+   
   }
   
   .count {
     color: white;
     font-weight: bold;
+    font-size: 18px;
   }
   
   .stock {
     color: white;
     font-weight: bold;
+    font-size: 14px;
+  }
+ 
+  .counter-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 5px;
+    color: white;
+   
+  }
+  
+  .add-to-cart {
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
   }
 
   
