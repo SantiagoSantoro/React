@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
 import Badge from "react-bootstrap/Badge";
-import cart from "./assets/cart.png";
-import { CartProvider } from "../../Context/CartContext";
+import { Link } from "react-router-dom";
+import cartImg from "./assets/cart.png";
+import CartContext from "../../Context/CartContext";
 
 const styles = {
   span: {
@@ -14,10 +15,10 @@ const styles = {
 };
 
 export const CartWidget = () => {
-  const { cartItems } = useContext(CartProvider);
+  const { cart } = useContext(CartContext);
 
   // Calcular la cantidad total de items en el carrito
-  const totalItems = cartItems.reduce((total, item) => total + item.cantidad, 0);
+  const totalItems = cart.reduce((total, item) => total + item.cantidad, 0);
 
   if (totalItems === 0) {
     // No mostrar el CartWidget si no hay items en el carrito
@@ -25,10 +26,12 @@ export const CartWidget = () => {
   }
 
   return (
-    <Badge bg="light">
-      <img src={cart} alt="Changuito" style={styles.img} />
-      <span style={styles.span}>{totalItems}</span>
-    </Badge>
+    <Link to="/cart">
+      <Badge bg="light">
+        <img src={cartImg} alt="Changuito" style={styles.img} />
+        <span style={styles.span}>{totalItems}</span>
+      </Badge>
+    </Link>
   );
 };
 

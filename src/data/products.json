@@ -76,7 +76,7 @@
         "id": 9,
         "marca": "Element",
         "categoria": "Remeras",
-        "precio": 19.20,
+        "precio": 20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_809616-MLA48785332449_012022-O.webp",
         "descripcion": "Remera de algodón Element. Todos los talles disponibles."
     },
@@ -85,7 +85,7 @@
         "id": 10,
         "marca": "Wakana",
         "categoria": "Remeras",
-        "precio": 19.20,
+        "precio": 20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_754041-MLA48785429044_012022-O.webp",
         "descripcion": "Remera de algodón Wakana. Todos los talles disponibles."
     },
@@ -94,7 +94,7 @@
         "id": 11,
         "marca": "Vans",
         "categoria": "Remeras",
-        "precio": 19.20,
+        "precio": 20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_735638-MLA53626805791_022023-O.webp",
         "descripcion": "Remera de algodón Vans. Todos los talles disponibles."
     },
@@ -103,7 +103,7 @@
         "id": 12,
         "marca": "Santa Cruz",
         "categoria": "Remeras",
-        "precio": 19.20,
+        "precio": 20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_857303-MLA53753533231_022023-O.webp",
         "descripcion": "Remera de algodón Santa Cruz. Todos los talles disponibles."
     },
@@ -112,7 +112,7 @@
         "id": 13,
         "marca": "Thrasher",
         "categoria": "Remeras",
-        "precio": 19.20,
+        "precio": 20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_924678-MLA53909815928_022023-O.webp",
         "descripcion": "Remera de algodón Thrasher. Todos los talles disponibles."
     },
@@ -121,7 +121,7 @@
         "id": 14,
         "marca": "Powell Peralta",
         "categoria": "Remeras",
-        "precio": 19.20,
+        "precio": 20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_840516-MLA53282232097_012023-O.webp",
         "descripcion": "Remera de algodón Powell Peralta. Todos los talles disponibles."
     },
@@ -130,7 +130,7 @@
         "id": 15,
         "marca": "Independent",
         "categoria": "Remeras",
-        "precio": 19.20,
+        "precio": 20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_655718-MLA50264181146_062022-O.webp",
         "descripcion": "Remera de algodón Independent. Todos los talles disponibles."
     },
@@ -139,7 +139,7 @@
         "id": 16,
         "marca": "No Regret",
         "categoria": "Remeras",
-        "precio": 19.20,
+        "precio": 20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_863842-MLA50264190142_062022-O.webp",
         "descripcion": "Remera de algodón No Regret. Todos los talles disponibles."
     },
@@ -148,7 +148,7 @@
         "id": 17,
         "marca": "Kit Independent",
         "categoria": "Accesorios",
-        "precio": 19.20,
+        "precio": 18,
         "img": "https://http2.mlstatic.com/D_NQ_NP_615668-MLA52232541259_112022-O.webp",
         "descripcion": "Kit Accesorios Para Skate Independent Spare Parts Kit Each"
     },
@@ -157,7 +157,7 @@
         "id": 18,
         "marca": "Trucks Ace",
         "categoria": "Accesorios",
-        "precio": 19.20,
+        "precio": 20,
         "img": "https://http2.mlstatic.com/D_NQ_NP_787374-MLA48934520166_012022-O.webp",
         "descripcion": "Trucks De Skate F1-44 (set X 2u.) Ace"
     },
@@ -166,7 +166,7 @@
         "id": 19,
         "marca": "Pig Prime Conical",
         "categoria": "Accesorios",
-        "precio": 19.20,
+        "precio": 25,
         "img": "https://http2.mlstatic.com/D_NQ_NP_713269-MLA54199841788_032023-O.webp",
         "descripcion": "Ruedas De Skate Pig Prime Conical 56mm"
     },
@@ -175,7 +175,7 @@
         "id": 20,
         "marca": "Llave Ace Skate Tool",
         "categoria": "Accesorios",
-        "precio": 19.20,
+        "precio": 7,
         "img": "https://http2.mlstatic.com/D_NQ_NP_649008-MLA49263783637_032022-O.webp",
         "descripcion": "Llave Ace Skate Tool"
     },
@@ -184,7 +184,7 @@
         "id": 21,
         "marca": "Lija Thrasher",
         "categoria": "Accesorios",
-        "precio": 19.20,
+        "precio": 12,
         "img": "https://http2.mlstatic.com/D_NQ_NP_833982-MLA50401119036_062022-O.webp",
         "descripcion": "Lija De Skate Thrasher Destroy"
     },
@@ -193,7 +193,7 @@
         "id": 22,
         "marca": "Bujes Medium White",
         "categoria": "Accesorios",
-        "precio": 19.20,
+        "precio": 15,
         "img": "https://http2.mlstatic.com/D_NQ_NP_712385-MLA50260828143_062022-O.webp",
         "descripcion": "Bujes Para Skate Medium White"
     },
@@ -202,7 +202,7 @@
         "id": 23,
         "marca": "Llave T Woodo",
         "categoria": "Accesorios",
-        "precio": 19.20,
+        "precio": 18,
         "img": "https://http2.mlstatic.com/D_NQ_NP_820884-MLA48687442651_122021-O.webp",
         "descripcion": "Llave T Para Skate Woodo"
     },
@@ -211,7 +211,7 @@
         "id": 24,
         "marca": "Woodoo Blackwings",
         "categoria": "Accesorios",
-        "precio": 19.20,
+        "precio": 12,
         "img": "https://http2.mlstatic.com/D_NQ_NP_888568-MLA45303853609_032021-O.webp",
         "descripcion": "Rulemanes Woodoo Blackwings Ii"
     }

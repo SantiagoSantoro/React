@@ -1,6 +1,9 @@
 import React, { useContext } from "react";
 import { ItemCounter } from "../ItemCounter/ItemCounter";
 import CartContext from "../../Context/CartContext";
+import { Link } from 'react-router-dom';
+import "./ItemDetail.css"
+
 
 export const ItemDetail = ({ product }) => {
   const { addItem } = useContext(CartContext);
@@ -11,22 +14,20 @@ export const ItemDetail = ({ product }) => {
   };
 
   return (
-    <div className="text-center" >
-      <h1 style={{ color: "white", fontSize: "2rem" }}>{product.marca}</h1>
-      <p style={{ color: "white", fontSize: "20px" }}>{product.categoria}</p>
-      <p style={{ color: "white", fontSize: "18px", fontWeight: "Montserrat" }}>
-        {product.descripcion}
-      </p>
-      <p style={{ color: "white", fontSize: "30px", fontWeight: "Montserrat" }}>
-        USD${product.precio}
-      </p>
+    <div className="item-detail">
+      <h1>{product.marca}</h1>
+      <p>{product.categoria}</p>
+      <p>{product.descripcion}</p>
+      <p>Precio: USD {product.precio}</p>
       <img
         src={product.img}
         alt={product.marca}
-		style={{ maxWidth: "50%", height: "auto", borderRadius: "10px" }}
+        style={{ width: "50%", height: "auto", borderRadius: "10px" }}
       />
-      <ItemCounter stock={product.stock} onAdd={onAdd} />
-      {/* tengo que linkearlo a la ruta Cart */}
+      <div className="item-counter-container">
+        <ItemCounter stock={product.stock} onAdd={onAdd} />
+      </div>
+      <Link to="/cart" className="btn btn-dark">Ir al carrito</Link>
     </div>
   );
 };
