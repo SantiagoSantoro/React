@@ -1,15 +1,16 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { ItemCounter } from "../ItemCounter/ItemCounter";
 import CartContext from "../../Context/CartContext";
 import { Link } from 'react-router-dom';
 import "./ItemDetail.css"
 
-
 export const ItemDetail = ({ product }) => {
   const { addItem } = useContext(CartContext);
+  const [addedToCart, setAddedToCart] = useState(false);
 
   const onAdd = (cantidad) => {
     addItem(product, cantidad);
+    setAddedToCart(true);
     console.log("Producto agregado al carrito:", product);
   };
 
@@ -24,14 +25,14 @@ export const ItemDetail = ({ product }) => {
         alt={product.marca}
         style={{ width: "50%", height: "auto", borderRadius: "10px" }}
       />
-      <div className="item-counter-container">
-        <ItemCounter stock={product.stock} onAdd={onAdd} />
-      </div>
-      <Link to="/cart" className="btn btn-dark">Ir al carrito</Link>
+      {addedToCart ? (
+        <Link to="/cart" className="btn btn-dark">Ir al carrito</Link>
+      ) : (
+        <div className="item-counter-container">
+          <ItemCounter stock={product.stock} onAdd={onAdd} />
+        </div>
+      )}
     </div>
   );
 };
 
-
-
-//poner un fondo en el item detail para que se vea un fondo. Suma, restar y poner abajo Agregar al carrito./

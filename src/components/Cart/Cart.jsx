@@ -31,7 +31,7 @@ export const Cart = () => {
           <p>{item.nombre}</p>
           <p>Precio: USD {item.precio}</p>
           <p>Cantidad: {item.cantidad}</p>
-          <img src={item.img} alt={item.nombre} className="product-image" style={{ maxWidth: "100%", maxHeight: "200px" }} />
+          <img src={item.img} alt={item.nombre} className="product-image" style={{ maxWidth: "75%", maxHeight: "150px" }} />
           <br />
           <button className="btn btn-dark" onClick={() => removeItem(item.id)}>Eliminar</button>
         </div>
