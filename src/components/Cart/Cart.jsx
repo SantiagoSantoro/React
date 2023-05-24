@@ -3,7 +3,6 @@ import CartContext from "../../Context/CartContext";
 import { Link } from 'react-router-dom';
 import "./Cart.css";
 
-
 export const Cart = () => {
   const { cart, removeItem, clear } = useContext(CartContext);
 
@@ -41,8 +40,5 @@ export const Cart = () => {
       <button className="btn btn-dark" onClick={clear}>Vaciar Carrito</button>
     </div>
   );
-
-
-
 };
 

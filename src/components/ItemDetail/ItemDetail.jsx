@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { ItemCounter } from "../ItemCounter/ItemCounter";
+import { ItemCount } from "../ItemCount/ItemCount";
 import CartContext from "../../Context/CartContext";
 import { Link } from 'react-router-dom';
 import "./ItemDetail.css"
@@ -29,7 +29,7 @@ export const ItemDetail = ({ product }) => {
         <Link to="/cart" className="btn btn-dark">Ir al carrito</Link>
       ) : (
         <div className="item-counter-container">
-          <ItemCounter stock={product.stock} onAdd={onAdd} />
+          <ItemCount stock={product.stock} onAdd={onAdd} />
         </div>
       )}
     </div>

@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Xtreme-Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Xtreme-Shop Logo](/path/to/logo.png)
 
-## Available Scripts
+Xtreme-Shop es una aplicación de ecommerce desarrollada en React que simula una tienda de skates, ropa y accesorios. Permite a los usuarios explorar productos, agregarlos al carrito de compras y realizar pedidos.
 
-In the project directory, you can run:
+## Capturas de pantalla
 
-### `npm start`
+Inserta aquí algunas capturas de pantalla que muestren la interfaz de usuario de tu aplicación. Pueden incluir la página de inicio, la página de productos, la página del carrito de compras, etc.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Características
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Navegación intuitiva para explorar categorías de productos.
+- Detalles de productos, incluyendo imágenes, descripción y precio.
+- Funcionalidad de carrito de compras para agregar, modificar y eliminar productos.
+- Proceso de pago simulado (no se realiza un pago real).
+- Uso de Firebase para generar y devolver un ticket de compra.
 
-### `npm test`
+## Instalación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
-### `npm run build`
+1. Clona el repositorio de Xtreme-Shop: `git clone https://github.com/SantiagoSantoro/React.git`
+2. Ingresa al directorio del proyecto: `cd React`
+3. Instala las dependencias: `npm install`
+4. Crea un archivo `.env` en la raíz del proyecto y configura las variables de entorno necesarias para Firebase. Puedes encontrar las variables requeridas en la documentación de Firebase.
+5. Inicia la aplicación: `npm start`
+6. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnologías utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React: Biblioteca de JavaScript para construir interfaces de usuario.
+- React Router: Librería para el enrutamiento de aplicaciones de React.
+- React Hooks: Característica de React para utilizar el estado y otras características de React en componentes funcionales.
+- React Context API: API de React para gestionar el estado y compartir datos entre componentes.
+- React Bootstrap: Librería de componentes de interfaz de usuario basada en Bootstrap para React.
+- Firebase: Plataforma de desarrollo de aplicaciones web y móviles de Google.
+- HTML: Lenguaje de marcado para estructurar y presentar el contenido web.
+- CSS: Lenguaje de estilos utilizado para dar estilo y diseño a los elementos HTML.
+- JavaScript: Lenguaje de programación utilizado para agregar interactividad y funcionalidad a las páginas web.
 
-### `npm run eject`
+## Contribución
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Si deseas contribuir a Xtreme-Shop, sigue estos pasos:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Haz un fork del repositorio en GitHub.
+2. Clona tu repositorio bifurcado: `git clone https://github.com/SantiagoSantoro/React.git`
+3. Crea una rama para tus cambios: `git checkout -b feature/nueva-funcionalidad`
+4. Realiza los cambios y realiza commits: `git commit -m "Agrega nueva funcionalidad"`
+5. Empuja tus cambios a tu repositorio en GitHub: `git push origin feature/nueva-funcionalidad`
+6. Abre una solicitud de extracción en GitHub.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contacto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
-## Learn More
+- Santiago Santoro
+- Correo electrónico: santiagosantoro10@gmail.com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+¡Gracias por usar Xtreme-Shop! Espero que disfrutes explorando nuestra tienda virtual y encuentres los productos que te apasionan.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
