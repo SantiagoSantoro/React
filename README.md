@@ -6,7 +6,10 @@ Xtreme-Shop es una aplicación de ecommerce desarrollada en React que simula una
 
 ## Capturas de pantalla
 
-Inserta aquí algunas capturas de pantalla que muestren la interfaz de usuario de tu aplicación. Pueden incluir la página de inicio, la página de productos, la página del carrito de compras, etc.
+![Landing de la pagina](public/images/1.png)
+![Detalle del producto](public/images/2.png)
+![Carrito de compras con el total del producto seleccionado](public/images/3.png)
+![Formulario de envío de detalle de compra](public/images/4.png)
 
 ## Características
 
