@@ -38,7 +38,13 @@ export const Cart = () => {
       {/* Mostrar el precio total del carrito */}
       <h4>Precio total: USD {calculateTotal()}</h4>
       <button className="btn btn-dark" onClick={clear}>Vaciar Carrito</button>
+      <br />
+      <button className="btn btn-danger">
+        <Link to="/checkout" className="text-white text-decoration-none">Finalizar Compra</Link>
+      </button>
+
     </div>
   );
 };
+
 
