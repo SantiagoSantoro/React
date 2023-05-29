@@ -1,0 +1,28 @@
+.loading-order {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    padding: 10px;
+  }
+  
+  .order-number {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 10px;
+  }
+  
+  .thank-you {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    padding: 10px;
+  }
+  
+  

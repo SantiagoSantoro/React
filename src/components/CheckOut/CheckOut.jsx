@@ -2,6 +2,7 @@ import { useContext, useState, useEffect } from "react";
 import { collection, addDoc, getFirestore } from "firebase/firestore";
 import CartContext from "../../Context/CartContext";
 import CheckOutForm from "../CheckOutForm/CheckOutForm";
+import "./CheckOut.css";
 
 const CheckOut = () => {
   const [cargando, setCargando] = useState(false);
@@ -51,14 +52,14 @@ const CheckOut = () => {
   };
 
   if (cargando) {
-    return <h1>Se Está Cargando La Orden...</h1>;
+    return <h1 className="loading-order">Se Está Cargando La Orden...</h1>;
   }
 
   if (ordenId) {
     return (
       <div>
-        <h1>Su Numero de Orden es: {ordenId}</h1>
-        <h1>Gracias por utilizar X-treme Shop.</h1>
+       <h1 className="order-number">Su Numero de Orden es: {ordenId}</h1>
+       <h1 className="thank-you">Gracias por utilizar X-treme Shop.</h1>
       </div>
     );
   }

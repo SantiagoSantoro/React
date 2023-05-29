@@ -1,20 +1,16 @@
 import { useState } from "react";
 import "./CheckOutForm.css";
 
-
-
 const CheckOutForm = ({ onConfirm }) => {
     const [name, setName] = useState("")
     const [phone, setPhone] = useState("")
     const [email, setEmail] = useState("")
-
 
     const handleConfirm = (e) => {
         e.preventDefault()
         const buyer = {
             name, phone, email
         }
-
         onConfirm(buyer)
     }
 
