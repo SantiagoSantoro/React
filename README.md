@@ -1,6 +1,6 @@
 # Xtreme-Shop
 
-![Xtreme-Shop Logo](/path/to/logo.png)
+![Xtreme-Shop Logo](/public/images/Logo.png)
 
 Xtreme-Shop es una aplicación de ecommerce desarrollada en React que simula una tienda de skates, ropa y accesorios. Permite a los usuarios explorar productos, agregarlos al carrito de compras y realizar pedidos.
 

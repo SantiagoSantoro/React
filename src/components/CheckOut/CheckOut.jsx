@@ -1,56 +1,76 @@
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { collection, addDoc, getFirestore } from "firebase/firestore";
 import CartContext from "../../Context/CartContext";
 import CheckOutForm from "../CheckOutForm/CheckOutForm";
 
 const CheckOut = () => {
-    const [cargando, setCargando] = useState(false);
-    const [ordenId, setOrdenId] = useState("");
+  const [cargando, setCargando] = useState(false);
+  const [ordenId, setOrdenId] = useState("");
+  const [totalReal, setTotalReal] = useState(0);
 
-    const { cart } = useContext(CartContext);
+  const { cart, clear } = useContext(CartContext);
 
-    const sendOrder = async ({ name, phone, email }) => {
-        setCargando(true);
-        try {
-            const order = {
-                buyer: {
-                    name,
-                    phone,
-                    email,
-                },
-                items: cart,
-                total: 100,
-            };
-            const db = getFirestore();
-            const orderCollectionRef = collection(db, "orders");
-            await addDoc(orderCollectionRef, order)
-                .then((docRef) => {
-                    console.log("Orden con ID " + docRef.id + " creada!");
-                    setOrdenId(docRef.id);
-                })
-                .catch((error) => {
-                    console.error("Error al crear la orden:", error);
-                });
-        } finally {
-            setCargando(false);
-        }
-    };
+  useEffect(() => {
+    setTotalReal(calcularTotal(cart));
+  }, [cart]);
 
-    if (cargando) {
-        return <h1>Se Está Cargando La Orden...</h1>;
+  const sendOrder = async ({ name, phone, email }) => {
+    setCargando(true);
+    try {
+      const order = {
+        buyer: {
+          name,
+          phone,
+          email,
+        },
+        items: cart,
+        total: totalReal,
+      };
+      const db = getFirestore();
+      const orderCollectionRef = collection(db, "orders");
+      await addDoc(orderCollectionRef, order)
+        .then((docRef) => {
+          console.log("Orden con ID " + docRef.id + " creada!");
+          setOrdenId(docRef.id);
+          clear(); // Limpiar el carrito después de guardar la orden
+        })
+        .catch((error) => {
+          console.error("Error al crear la orden:", error);
+        });
+    } finally {
+      setCargando(false);
     }
+  };
 
-    if (ordenId) {
-        return <h1>Su Numero de Orden es: {ordenId}</h1>;
-    }
-    
+  const calcularTotal = (cart) => {
+    let total = 0;
+    cart.forEach((item) => {
+      total += item.precio * item.cantidad;
+    });
+    return total;
+  };
+
+  if (cargando) {
+    return <h1>Se Está Cargando La Orden...</h1>;
+  }
+
+  if (ordenId) {
     return (
-        <div>
-            <CheckOutForm onConfirm={sendOrder} />
-        </div>
+      <div>
+        <h1>Su Numero de Orden es: {ordenId}</h1>
+        <h1>Gracias por utilizar X-treme Shop.</h1>
+      </div>
     );
+  }
+
+  return (
+    <div>
+      <CheckOutForm onConfirm={sendOrder} />
+    </div>
+  );
 };
 
 export default CheckOut;
+
 
 
