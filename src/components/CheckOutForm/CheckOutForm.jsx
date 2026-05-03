@@ -26,43 +26,45 @@ const CheckOutForm = ({ onConfirm }) => {
   };
 
   return (
-    <div className="divform">
-      <form onSubmit={handleConfirm} className="Form">
-        <label className="Label">
+    <div className="checkout-form-wrap">
+      <form onSubmit={handleConfirm} className="checkout-form" noValidate>
+        <h2 className="h5 text-center mb-4 fw-bold">Datos de envío</h2>
+        <label className="checkout-label">
           Nombre
           <input
-            className="Input"
+            className="checkout-input"
             type="text"
             name="name"
+            autoComplete="name"
             value={formValues.name}
             onChange={handleInputChange}
           />
         </label>
-        <label className="Label">
+        <label className="checkout-label">
           Teléfono
           <input
-            className="Input"
-            type="text"
+            className="checkout-input"
+            type="tel"
             name="phone"
+            autoComplete="tel"
             value={formValues.phone}
             onChange={handleInputChange}
           />
         </label>
-        <label className="Label">
+        <label className="checkout-label">
           Email
           <input
-            className="Input"
-            type="text"
+            className="checkout-input"
+            type="email"
             name="email"
+            autoComplete="email"
             value={formValues.email}
             onChange={handleInputChange}
           />
         </label>
-        <div className="Label">
-          <button className="btn btn-dark" type="submit">
-            Crear Orden
-          </button>
-        </div>
+        <button className="btn btn-dark checkout-submit rounded-pill py-2" type="submit">
+          Crear orden
+        </button>
       </form>
     </div>
   );

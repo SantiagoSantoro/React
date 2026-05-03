@@ -1,45 +1,86 @@
-.App {
-  text-align: center;
+:root {
+  --color-bg-overlay: rgba(15, 18, 22, 0.72);
+  --color-surface: rgba(255, 255, 255, 0.94);
+  --color-accent-start: #00d4ff;
+  --color-accent-end: #e040fb;
+  --font-display: "Montserrat", system-ui, sans-serif;
 }
 
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-main {
+  flex: 1;
+  width: 100%;
+  padding-bottom: 2rem;
+}
 
 body {
-  background-image: url("./components/CartWidget/assets/rodneymullen.jpg");
+  margin: 0;
+  min-height: 100vh;
+  background-color: #0f1216;
+  background-image: linear-gradient(
+      var(--color-bg-overlay),
+      var(--color-bg-overlay)
+    ),
+    url("./components/CartWidget/assets/rodneymullen.jpg");
   background-size: cover;
-  background-position: center 50px;
+  background-position: center top;
+  background-attachment: scroll;
+}
 
+@media (min-width: 768px) {
+  body {
+    background-attachment: fixed;
+  }
 }
 
 .title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 4vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 1.25rem;
+  padding: 0 0.75rem;
   color: #ffffff;
-  background-image: linear-gradient(to right, #00ffff, #ff00ff);
+  background-image: linear-gradient(
+    90deg,
+    var(--color-accent-start),
+    var(--color-accent-end)
+  );
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
 
 .loading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-display);
   font-weight: 600;
-  font-size: 40px;
-  color: linear-gradient(to right, #808080, #e6e6e6);
-  animation: blink 1s linear infinite;
+  font-size: clamp(1.25rem, 3vw, 2rem);
+  color: #f0f4f8;
+  animation: blink 1.2s ease-in-out infinite;
   text-align: center;
+  padding: 2rem 1rem;
 }
 
+.empty-catalog {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 2.5vw, 1.15rem);
+  color: #e8ecf0;
+  padding: 2rem 1rem;
+  margin: 0;
+}
 
 @keyframes blink {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0.5;
-  }
-
+  0%,
   100% {
     opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
   }
 }

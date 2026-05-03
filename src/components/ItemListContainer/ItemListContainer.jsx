@@ -38,11 +38,14 @@ export const ItemListContainer = ({ greeting }) => {
     loadItems();
   }, [id]);
 
+  const heading =
+    greeting ?? (id ? `Categoría: ${id}` : "Catálogo");
+
   return (
-    <Container className="mt-4">
-      <h1 className="title">{greeting}</h1>
+    <Container className="py-4 px-3">
+      <h1 className="title">{heading}</h1>
       {loading ? (
-        <div className="loading">Loading...</div>
+        <div className="loading">Cargando productos…</div>
       ) : (
         <ItemList list={list} />
       )}

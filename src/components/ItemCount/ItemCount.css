@@ -1,40 +1,37 @@
 .item-counter {
-    font-family: "Montserrat", sans-serif;
-   
-  }
-  
-  .count {
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-  }
-  
-  .stock {
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
-  }
- 
-  .counter-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .btn {
-    width: auto;
-    padding: 5px;
-    color: white;
-   
-  }
-  
-  .add-to-cart {
-    width: 100%;
-    margin-bottom: 10px;
-    color: white;
-  }
+  font-family: var(--font-display, "Montserrat", sans-serif);
+  width: 100%;
+  max-width: 280px;
+}
 
-  
+.count {
+  color: #0f1216;
+  font-weight: bold;
+  font-size: 1.15rem;
+  margin: 0;
+  text-align: center;
+}
 
+.stock {
+  color: #495057;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0;
+  text-align: center;
+}
+
+.counter-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.item-counter .btn {
+  min-width: 2.5rem;
+}
+
+.add-to-cart {
+  width: 100%;
+}

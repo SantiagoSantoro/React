@@ -42,7 +42,7 @@ export const ItemCount = ({ stock, onAdd }) => {
       >
         Agregar al carrito
       </button>
-      {/* <p className="stock">Stock disponible: {stock}</p> */}
+      <p className="stock">Stock disponible: {stock}</p>
     </div>
   );
 };
