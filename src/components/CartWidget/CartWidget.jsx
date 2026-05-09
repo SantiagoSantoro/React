@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Badge from "react-bootstrap/Badge";
 import { Link } from "react-router-dom";
 import cartImg from "./assets/cart.png";
-import CartContext from "../../Context/CartContext.jsx";
+import CartContext from "../../context/CartContext.jsx";
 
 const styles = {
   span: {
