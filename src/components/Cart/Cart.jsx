@@ -2,7 +2,7 @@ import { useContext, useMemo } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import CartContext from "../../context/CartContext";
+import CartContext from "../../Context/CartContext";
 import { Link } from "react-router-dom";
 import "./Cart.css";
 
