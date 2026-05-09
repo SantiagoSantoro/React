@@ -4,15 +4,6 @@ import { Link } from "react-router-dom";
 import cartImg from "./assets/cart.png";
 import CartContext from "../../context/CartContext.jsx";
 
-const styles = {
-  span: {
-    paddingLeft: 10,
-    color: "black",
-  },
-  img: {
-    height: 30,
-  },
-};
 
 export const CartWidget = () => {
   const { cart } = useContext(CartContext);
