@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { ItemCount } from "../ItemCount/ItemCount";
-import CartContext from "../../context/cartContext.jsx";
+import CartContext from "../../context/CartContext";
 import { Link } from "react-router-dom";
 import "./ItemDetail.css";
 
